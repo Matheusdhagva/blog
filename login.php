@@ -89,7 +89,7 @@
         echo '<p class="error-message">Usuário ou senha incorretos.</p>';
     }
     ?>
-    <form action="processar_login.php" method="POST">
+    <form action="../index2.php" method="POST">
         <div class="form-group">
             <label for="usuario">Usuário:</label>
             <input type="text" id="usuario" name="usuario" required>
